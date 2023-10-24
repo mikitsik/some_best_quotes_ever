@@ -1,0 +1,18 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    rack (2.2.8)
+    rails_from_scratch (0.0.1)
+      rack (~> 2.2)
+
+PLATFORMS
+  x86_64-linux
+
+DEPENDENCIES
+  rails_from_scratch
+
+RUBY VERSION
+   ruby 3.2.2p53
+
+BUNDLED WITH
+   2.4.21
