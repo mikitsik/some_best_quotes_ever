@@ -1,10 +1,12 @@
-
-
 class QuotesController < RailsFromScratch::Controller
   def a_quote
     "There is nothing either good or bad " +
       "but thinking makes it so." +
       "\n<pre>\n#{format_request(env)}\n</pre>"
+  end
+
+  def exception
+    raise "It's a bad one!"
   end
 
   private
